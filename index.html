@@ -58,7 +58,11 @@
                 </p>
             </div>
         </div>
-        <audio controls src="audio.wav"></audio>
+        <audio controls src="audio.wav" id="podcast-recording"></audio>
+        <script>
+            var audio = document.getElementById("podcast-recording");
+            audio.volume = 0.25;
+        </script>
         <h5 class="font-weight-bold" style="margin: 20px 0 20px">Interview Transcript</h5>
         
         <div class="row">
