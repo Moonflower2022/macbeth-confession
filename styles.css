@@ -1,9 +1,15 @@
-.bg-cover {
-    background-color: #000000;
-}
-
 body {
     min-height: 100vh;
+}
+
+.title-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px; 
+    height: auto; 
+    margin-bottom: 15px;
 }
 
 /* bar thingy */
